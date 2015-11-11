@@ -32,7 +32,6 @@ return [
     'shared'         => [
         '{paths.public}wp-config.php',
 		'{paths.public}.htaccess',
-		'{paths.public}wp-content/plugins',
 		'{paths.public}wp-content/uploads'
     ],
 
