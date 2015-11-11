@@ -1,0 +1,63 @@
+$ git --version
+git --version
+git version 1.7.11.3
+git version 1.7.11.3
+/usr/local/bin/php
+/usr/local/bin/php
+$ /usr/local/bin/php -m
+/usr/local/bin/php -m
+[PHP Modules]
+apc
+bcmath
+calendar
+Core
+ctype
+curl
+date
+dom
+ereg
+filter
+ftp
+gd
+hash
+iconv
+imagick
+imap
+json
+libxml
+mcrypt
+memcache
+mysql
+mysqlnd
+openssl
+pcre
+PDO
+pdo_mysql
+pdo_sqlite
+Phar
+posix
+Reflection
+session
+SimpleXML
+sockets
+SPL
+sqlite3
+standard
+timezonedb
+tokenizer
+xml
+xmlreader
+xmlwriter
+zlib
+[Zend Modules]
+$ git clone "git@github.com:potatskie/rocketeer_test.git" "/home/jerico/rocketeertest/releases/20151111071429" --branch="master" --depth="1"
+git clone "git@github.com:potatskie/rocketeer_test.git" "/home/jerico/rocketeertest/releases/20151111071429" --branch="master" --depth="1"
+Cloning into '/home/jerico/rocketeertest/releases/20151111071429'...
+Warning: Permanently added the RSA host key for IP address '192.30.252.129' to the list of known hosts.
+Permission denied (publickey).
+fatal: The remote end hung up unexpectedly
+$ cd /home/jerico/rocketeertest/releases/20151111071429
+$ find . -type f -print0 | xargs -0 chmod 0644
+cd /home/jerico/rocketeertest/releases/20151111071429
+find . -type f -print0 | xargs -0 chmod 0644
+jailshell: line 0: cd: /home/jerico/rocketeertest/releases/20151111071429: No such file or directory
