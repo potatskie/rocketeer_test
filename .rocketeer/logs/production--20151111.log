@@ -50,14 +50,37 @@ xmlreader
 xmlwriter
 zlib
 [Zend Modules]
-$ git clone "git@github.com:potatskie/rocketeer_test.git" "/home/jerico/rocketeertest/releases/20151111071429" --branch="master" --depth="1"
-git clone "git@github.com:potatskie/rocketeer_test.git" "/home/jerico/rocketeertest/releases/20151111071429" --branch="master" --depth="1"
-Cloning into '/home/jerico/rocketeertest/releases/20151111071429'...
-Warning: Permanently added the RSA host key for IP address '192.30.252.129' to the list of known hosts.
-Permission denied (publickey).
-fatal: The remote end hung up unexpectedly
-$ cd /home/jerico/rocketeertest/releases/20151111071429
+$ git clone "https://github.com/potatskie/rocketeer_test.git" "/home/jerico/rocketeertest/releases/20151111071727" --branch="master" --depth="1"
+git clone "https://github.com/potatskie/rocketeer_test.git" "/home/jerico/rocketeertest/releases/20151111071727" --branch="master" --depth="1"
+Cloning into '/home/jerico/rocketeertest/releases/20151111071727'...
+$ cd /home/jerico/rocketeertest/releases/20151111071727
+$ git submodule update --init --recursive
+cd /home/jerico/rocketeertest/releases/20151111071727
+git submodule update --init --recursive
+
+which: no bundle in (/home/jerico/perl5/bin:/usr/local/jdk/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/bin:/usr/X11R6/bin)
+which: no npm in (/home/jerico/perl5/bin:/usr/local/jdk/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/bin:/usr/X11R6/bin)
+which: no bower in (/home/jerico/perl5/bin:/usr/local/jdk/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/bin:/usr/X11R6/bin)
+which: no bower in (/home/jerico/rocketeertest/releases/20151111071727/node_modules/.bin)
+$ cd /home/jerico/rocketeertest/releases/20151111071727
+$ chmod -R 755 /home/jerico/rocketeertest/releases/20151111071727/
+$ chmod -R g+s /home/jerico/rocketeertest/releases/20151111071727/
+$ chmod -R g+x /home/jerico/rocketeertest/releases/20151111071727/
+$ chmod -R o+x /home/jerico/rocketeertest/releases/20151111071727/
+$ chown -R jerico:jerico /home/jerico/rocketeertest/releases/20151111071727/
+cd /home/jerico/rocketeertest/releases/20151111071727
+chmod -R 755 /home/jerico/rocketeertest/releases/20151111071727/
+chmod -R g+s /home/jerico/rocketeertest/releases/20151111071727/
+chmod -R g+x /home/jerico/rocketeertest/releases/20151111071727/
+chmod -R o+x /home/jerico/rocketeertest/releases/20151111071727/
+chown -R jerico:jerico /home/jerico/rocketeertest/releases/20151111071727/
+
+$ ln -s /home/jerico/rocketeertest/releases/20151111071727 /home/jerico/rocketeertest/current
+ln -s /home/jerico/rocketeertest/releases/20151111071727 /home/jerico/rocketeertest/current
+
+$ cd /home/jerico/rocketeertest/releases/20151111071727
 $ find . -type f -print0 | xargs -0 chmod 0644
-cd /home/jerico/rocketeertest/releases/20151111071429
+cd /home/jerico/rocketeertest/releases/20151111071727
 find . -type f -print0 | xargs -0 chmod 0644
-jailshell: line 0: cd: /home/jerico/rocketeertest/releases/20151111071429: No such file or directory
+
+|=> No releases to prune from the server
