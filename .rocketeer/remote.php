@@ -30,9 +30,9 @@ return [
     // Use this to list folders that need to keep their state, like
     // user uploaded data, file-based databases, etc.
     'shared'         => [
-        '{paths.public}wp-config.php',
-		'{paths.public}.htaccess',
-		'{paths.public}wp-content/uploads'
+        '{path.public}wp-config.php',
+		'{path.public}.htaccess',
+		'{path.public}wp-content/uploads'
     ],
 
     // Execution
