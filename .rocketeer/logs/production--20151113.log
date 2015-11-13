@@ -1,74 +1,73 @@
-20151113115420
 20151113130951
-$ git clone "https://github.com/potatskie/rocketeer_test.git" "/home/jerico/rocketeertest/releases/20151113132346" --branch="master" --depth="1"
-git clone "https://github.com/potatskie/rocketeer_test.git" "/home/jerico/rocketeertest/releases/20151113132346" --branch="master" --depth="1"
-Cloning into '/home/jerico/rocketeertest/releases/20151113132346'...
-$ cd /home/jerico/rocketeertest/releases/20151113132346
+20151113132346
+20151113132913
+20151113133134
+$ git clone "https://github.com/potatskie/rocketeer_test.git" "/home/jerico/rocketeertest/releases/20151113134955" --branch="master" --depth="1"
+git clone "https://github.com/potatskie/rocketeer_test.git" "/home/jerico/rocketeertest/releases/20151113134955" --branch="master" --depth="1"
+Cloning into '/home/jerico/rocketeertest/releases/20151113134955'...
+$ cd /home/jerico/rocketeertest/releases/20151113134955
 $ git submodule update --init --recursive
-cd /home/jerico/rocketeertest/releases/20151113132346
+cd /home/jerico/rocketeertest/releases/20151113134955
 git submodule update --init --recursive
 
 which: no bundle in (/home/jerico/perl5/bin:/usr/local/jdk/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/bin:/usr/X11R6/bin)
 which: no npm in (/home/jerico/perl5/bin:/usr/local/jdk/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/bin:/usr/X11R6/bin)
 which: no bower in (/home/jerico/perl5/bin:/usr/local/jdk/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/bin:/usr/X11R6/bin)
-which: no bower in (/home/jerico/rocketeertest/releases/20151113132346/node_modules/.bin)
-$ cd /home/jerico/rocketeertest/releases/20151113132346
-$ chmod -R 755 /home/jerico/rocketeertest/releases/20151113132346/
-$ chmod -R g+s /home/jerico/rocketeertest/releases/20151113132346/
-$ chmod -R g+x /home/jerico/rocketeertest/releases/20151113132346/
-$ chmod -R o+x /home/jerico/rocketeertest/releases/20151113132346/
-$ chown -R jerico:jerico /home/jerico/rocketeertest/releases/20151113132346/
-cd /home/jerico/rocketeertest/releases/20151113132346
-chmod -R 755 /home/jerico/rocketeertest/releases/20151113132346/
-chmod -R g+s /home/jerico/rocketeertest/releases/20151113132346/
-chmod -R g+x /home/jerico/rocketeertest/releases/20151113132346/
-chmod -R o+x /home/jerico/rocketeertest/releases/20151113132346/
-chown -R jerico:jerico /home/jerico/rocketeertest/releases/20151113132346/
+which: no bower in (/home/jerico/rocketeertest/releases/20151113134955/node_modules/.bin)
+$ cd /home/jerico/rocketeertest/releases/20151113134955
+$ chmod -R 755 /home/jerico/rocketeertest/releases/20151113134955/
+$ chmod -R g+s /home/jerico/rocketeertest/releases/20151113134955/
+$ chmod -R g+x /home/jerico/rocketeertest/releases/20151113134955/
+$ chmod -R o+x /home/jerico/rocketeertest/releases/20151113134955/
+$ chown -R jerico:jerico /home/jerico/rocketeertest/releases/20151113134955/
+cd /home/jerico/rocketeertest/releases/20151113134955
+chmod -R 755 /home/jerico/rocketeertest/releases/20151113134955/
+chmod -R g+s /home/jerico/rocketeertest/releases/20151113134955/
+chmod -R g+x /home/jerico/rocketeertest/releases/20151113134955/
+chmod -R o+x /home/jerico/rocketeertest/releases/20151113134955/
+chown -R jerico:jerico /home/jerico/rocketeertest/releases/20151113134955/
 
-$ ln -s /home/jerico/rocketeertest/shared/wp-config.php /home/jerico/rocketeertest/releases/20151113132346/wp-config.php
-ln -s /home/jerico/rocketeertest/shared/wp-config.php /home/jerico/rocketeertest/releases/20151113132346/wp-config.php
+$ ln -s /home/jerico/rocketeertest/shared/wp-config.php /home/jerico/rocketeertest/releases/20151113134955/wp-config.php
+ln -s /home/jerico/rocketeertest/shared/wp-config.php /home/jerico/rocketeertest/releases/20151113134955/wp-config.php
 
-$ ln -s /home/jerico/rocketeertest/shared/.htaccess /home/jerico/rocketeertest/releases/20151113132346/.htaccess
-ln -s /home/jerico/rocketeertest/shared/.htaccess /home/jerico/rocketeertest/releases/20151113132346/.htaccess
+$ ln -s /home/jerico/rocketeertest/shared/.htaccess /home/jerico/rocketeertest/releases/20151113134955/.htaccess
+ln -s /home/jerico/rocketeertest/shared/.htaccess /home/jerico/rocketeertest/releases/20151113134955/.htaccess
 
-$ rm -rf /home/jerico/rocketeertest/releases/20151113132346/wp-content/uploads
-rm -rf /home/jerico/rocketeertest/releases/20151113132346/wp-content/uploads
+$ rm -rf /home/jerico/rocketeertest/releases/20151113134955/wp-content/uploads
+rm -rf /home/jerico/rocketeertest/releases/20151113134955/wp-content/uploads
 
-$ ln -s /home/jerico/rocketeertest/shared/wp-content/uploads /home/jerico/rocketeertest/releases/20151113132346/wp-content/uploads
-ln -s /home/jerico/rocketeertest/shared/wp-content/uploads /home/jerico/rocketeertest/releases/20151113132346/wp-content/uploads
+$ ln -s /home/jerico/rocketeertest/shared/wp-content/uploads /home/jerico/rocketeertest/releases/20151113134955/wp-content/uploads
+ln -s /home/jerico/rocketeertest/shared/wp-content/uploads /home/jerico/rocketeertest/releases/20151113134955/wp-content/uploads
 
 $ rm -rf /home/jerico/rocketeertest/current
 rm -rf /home/jerico/rocketeertest/current
 
-$ ln -s /home/jerico/rocketeertest/releases/20151113132346 /home/jerico/rocketeertest/current
-ln -s /home/jerico/rocketeertest/releases/20151113132346 /home/jerico/rocketeertest/current
+$ ln -s /home/jerico/rocketeertest/releases/20151113134955 /home/jerico/rocketeertest/current
+ln -s /home/jerico/rocketeertest/releases/20151113134955 /home/jerico/rocketeertest/current
 
-$ cd /home/jerico/rocketeertest/releases/20151113132346
+$ cd /home/jerico/rocketeertest/releases/20151113134955
 $ find . -type f -print0 | xargs -0 chmod 0644
-cd /home/jerico/rocketeertest/releases/20151113132346
+cd /home/jerico/rocketeertest/releases/20151113134955
 find . -type f -print0 | xargs -0 chmod 0644
 
-$ cd /home/jerico/rocketeertest/releases/20151113132346
-$ rsync -a wp-content/plugins/ /home/jerico/rocketeer/shared/wp-content/plugins/
-cd /home/jerico/rocketeertest/releases/20151113132346
-rsync -a wp-content/plugins/ /home/jerico/rocketeer/shared/wp-content/plugins/
-rsync: mkdir "/home/jerico/rocketeer/shared/wp-content/plugins" failed: No such file or directory (2)
-rsync error: error in file IO (code 11) at main.c(576) [receiver=3.0.6]
-rsync: connection unexpectedly closed (9 bytes received so far) [sender]
-rsync error: error in rsync protocol data stream (code 12) at io.c(600) [sender=3.0.6]
-$ cd /home/jerico/rocketeertest/releases/20151113132346
+$ cd /home/jerico/rocketeertest/releases/20151113134955
+$ rsync -a wp-content/plugins/ /home/jerico/rocketeertest/shared/wp-content/plugins/
+cd /home/jerico/rocketeertest/releases/20151113134955
+rsync -a wp-content/plugins/ /home/jerico/rocketeertest/shared/wp-content/plugins/
+
+$ cd /home/jerico/rocketeertest/releases/20151113134955
 $ rm -rf wp-content/plugins/
-cd /home/jerico/rocketeertest/releases/20151113132346
+cd /home/jerico/rocketeertest/releases/20151113134955
 rm -rf wp-content/plugins/
 
-$ cd /home/jerico/rocketeertest/releases/20151113132346
-$ ln -s /home/jerico/rocketeertest/shared/wp-content/plugins /home/jerico/rocketeertest/releases/20151113132346/wp-content/uploads
+$ cd /home/jerico/rocketeertest/releases/20151113134955
+$ ln -s /home/jerico/rocketeertest/shared/wp-content/plugins /home/jerico/rocketeertest/releases/20151113134955/wp-content/plugins
 
-cd /home/jerico/rocketeertest/releases/20151113132346
-ln -s /home/jerico/rocketeertest/shared/wp-content/plugins /home/jerico/rocketeertest/releases/20151113132346/wp-content/uploads
+cd /home/jerico/rocketeertest/releases/20151113134955
+ln -s /home/jerico/rocketeertest/shared/wp-content/plugins /home/jerico/rocketeertest/releases/20151113134955/wp-content/plugins
 
 
-$ rm -rf /home/jerico/rocketeertest/releases/20151113115420
-rm -rf /home/jerico/rocketeertest/releases/20151113115420
+$ rm -rf /home/jerico/rocketeertest/releases/20151113132913 /home/jerico/rocketeertest/releases/20151113132346 /home/jerico/rocketeertest/releases/20151113130951
+rm -rf /home/jerico/rocketeertest/releases/20151113132913 /home/jerico/rocketeertest/releases/20151113132346 /home/jerico/rocketeertest/releases/20151113130951
 
-|=> Removing <info>1 release</info> from the server
+|=> Removing <info>3 releases</info> from the server
