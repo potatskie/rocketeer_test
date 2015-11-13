@@ -26,6 +26,10 @@ return [
 		'setup'   => array(),
 		'deploy'  => array(
 			sprintf('find . -type f -print0 | xargs -0 chmod 0644'),
+            function syncandshare($task){
+                $task->runForCurrentRelease('rsync -a wp-content/plugins/ /home/jerico/rocketeer/shared/plugins/');
+                $task->runForCurrentRelease('echo ' . $task->releasesManager->getCurrentReleasePath());
+            }
 		),
 		'cleanup' => array(),
 	),

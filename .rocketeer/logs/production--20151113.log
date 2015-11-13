@@ -1,60 +1,54 @@
-20151113081408
 20151113083811
-$ git clone "https://github.com/potatskie/rocketeer_test.git" "/home/jerico/rocketeertest/releases/20151113085420" --branch="master" --depth="1"
-git clone "https://github.com/potatskie/rocketeer_test.git" "/home/jerico/rocketeertest/releases/20151113085420" --branch="master" --depth="1"
-Cloning into '/home/jerico/rocketeertest/releases/20151113085420'...
-$ cd /home/jerico/rocketeertest/releases/20151113085420
+20151113085420
+$ git clone "https://github.com/potatskie/rocketeer_test.git" "/home/jerico/rocketeertest/releases/20151113115420" --branch="master" --depth="1"
+git clone "https://github.com/potatskie/rocketeer_test.git" "/home/jerico/rocketeertest/releases/20151113115420" --branch="master" --depth="1"
+Cloning into '/home/jerico/rocketeertest/releases/20151113115420'...
+$ cd /home/jerico/rocketeertest/releases/20151113115420
 $ git submodule update --init --recursive
-cd /home/jerico/rocketeertest/releases/20151113085420
+cd /home/jerico/rocketeertest/releases/20151113115420
 git submodule update --init --recursive
 
 which: no bundle in (/home/jerico/perl5/bin:/usr/local/jdk/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/bin:/usr/X11R6/bin)
 which: no npm in (/home/jerico/perl5/bin:/usr/local/jdk/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/bin:/usr/X11R6/bin)
 which: no bower in (/home/jerico/perl5/bin:/usr/local/jdk/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/bin:/usr/X11R6/bin)
-which: no bower in (/home/jerico/rocketeertest/releases/20151113085420/node_modules/.bin)
-$ cd /home/jerico/rocketeertest/releases/20151113085420
-$ chmod -R 755 /home/jerico/rocketeertest/releases/20151113085420/
-$ chmod -R g+s /home/jerico/rocketeertest/releases/20151113085420/
-$ chmod -R g+x /home/jerico/rocketeertest/releases/20151113085420/
-$ chmod -R o+x /home/jerico/rocketeertest/releases/20151113085420/
-$ chown -R jerico:jerico /home/jerico/rocketeertest/releases/20151113085420/
-cd /home/jerico/rocketeertest/releases/20151113085420
-chmod -R 755 /home/jerico/rocketeertest/releases/20151113085420/
-chmod -R g+s /home/jerico/rocketeertest/releases/20151113085420/
-chmod -R g+x /home/jerico/rocketeertest/releases/20151113085420/
-chmod -R o+x /home/jerico/rocketeertest/releases/20151113085420/
-chown -R jerico:jerico /home/jerico/rocketeertest/releases/20151113085420/
+which: no bower in (/home/jerico/rocketeertest/releases/20151113115420/node_modules/.bin)
+$ cd /home/jerico/rocketeertest/releases/20151113115420
+$ chmod -R 755 /home/jerico/rocketeertest/releases/20151113115420/
+$ chmod -R g+s /home/jerico/rocketeertest/releases/20151113115420/
+$ chmod -R g+x /home/jerico/rocketeertest/releases/20151113115420/
+$ chmod -R o+x /home/jerico/rocketeertest/releases/20151113115420/
+$ chown -R jerico:jerico /home/jerico/rocketeertest/releases/20151113115420/
+cd /home/jerico/rocketeertest/releases/20151113115420
+chmod -R 755 /home/jerico/rocketeertest/releases/20151113115420/
+chmod -R g+s /home/jerico/rocketeertest/releases/20151113115420/
+chmod -R g+x /home/jerico/rocketeertest/releases/20151113115420/
+chmod -R o+x /home/jerico/rocketeertest/releases/20151113115420/
+chown -R jerico:jerico /home/jerico/rocketeertest/releases/20151113115420/
 
-$ ln -s /home/jerico/rocketeertest/shared/wp-config.php /home/jerico/rocketeertest/releases/20151113085420/wp-config.php
-ln -s /home/jerico/rocketeertest/shared/wp-config.php /home/jerico/rocketeertest/releases/20151113085420/wp-config.php
+$ ln -s /home/jerico/rocketeertest/shared/wp-config.php /home/jerico/rocketeertest/releases/20151113115420/wp-config.php
+ln -s /home/jerico/rocketeertest/shared/wp-config.php /home/jerico/rocketeertest/releases/20151113115420/wp-config.php
 
-$ ln -s /home/jerico/rocketeertest/shared/.htaccess /home/jerico/rocketeertest/releases/20151113085420/.htaccess
-ln -s /home/jerico/rocketeertest/shared/.htaccess /home/jerico/rocketeertest/releases/20151113085420/.htaccess
+$ ln -s /home/jerico/rocketeertest/shared/.htaccess /home/jerico/rocketeertest/releases/20151113115420/.htaccess
+ln -s /home/jerico/rocketeertest/shared/.htaccess /home/jerico/rocketeertest/releases/20151113115420/.htaccess
 
-$ rm -rf /home/jerico/rocketeertest/releases/20151113085420/wp-content/uploads
-rm -rf /home/jerico/rocketeertest/releases/20151113085420/wp-content/uploads
+$ rm -rf /home/jerico/rocketeertest/releases/20151113115420/wp-content/uploads
+rm -rf /home/jerico/rocketeertest/releases/20151113115420/wp-content/uploads
 
-$ ln -s /home/jerico/rocketeertest/shared/wp-content/uploads /home/jerico/rocketeertest/releases/20151113085420/wp-content/uploads
-ln -s /home/jerico/rocketeertest/shared/wp-content/uploads /home/jerico/rocketeertest/releases/20151113085420/wp-content/uploads
-
-$ rm -rf /home/jerico/rocketeertest/releases/20151113085420/wp-content/plugins
-rm -rf /home/jerico/rocketeertest/releases/20151113085420/wp-content/plugins
-
-$ ln -s /home/jerico/rocketeertest/shared/wp-content/plugins /home/jerico/rocketeertest/releases/20151113085420/wp-content/plugins
-ln -s /home/jerico/rocketeertest/shared/wp-content/plugins /home/jerico/rocketeertest/releases/20151113085420/wp-content/plugins
+$ ln -s /home/jerico/rocketeertest/shared/wp-content/uploads /home/jerico/rocketeertest/releases/20151113115420/wp-content/uploads
+ln -s /home/jerico/rocketeertest/shared/wp-content/uploads /home/jerico/rocketeertest/releases/20151113115420/wp-content/uploads
 
 $ rm -rf /home/jerico/rocketeertest/current
 rm -rf /home/jerico/rocketeertest/current
 
-$ ln -s /home/jerico/rocketeertest/releases/20151113085420 /home/jerico/rocketeertest/current
-ln -s /home/jerico/rocketeertest/releases/20151113085420 /home/jerico/rocketeertest/current
+$ ln -s /home/jerico/rocketeertest/releases/20151113115420 /home/jerico/rocketeertest/current
+ln -s /home/jerico/rocketeertest/releases/20151113115420 /home/jerico/rocketeertest/current
 
-$ cd /home/jerico/rocketeertest/releases/20151113085420
+$ cd /home/jerico/rocketeertest/releases/20151113115420
 $ find . -type f -print0 | xargs -0 chmod 0644
-cd /home/jerico/rocketeertest/releases/20151113085420
+cd /home/jerico/rocketeertest/releases/20151113115420
 find . -type f -print0 | xargs -0 chmod 0644
 
-$ rm -rf /home/jerico/rocketeertest/releases/20151113081408
-rm -rf /home/jerico/rocketeertest/releases/20151113081408
+$ rm -rf /home/jerico/rocketeertest/releases/20151113083811
+rm -rf /home/jerico/rocketeertest/releases/20151113083811
 
 |=> Removing <info>1 release</info> from the server
