@@ -32,8 +32,7 @@ return [
     'shared'         => [
       'wp-config.php',
   		'.htaccess',
-  		'wp-content/uploads',
-        'wp-content/plugins'
+  		'wp-content/uploads'
     ],
 
     // Execution
