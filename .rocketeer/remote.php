@@ -30,9 +30,9 @@ return [
     // Use this to list folders that need to keep their state, like
     // user uploaded data, file-based databases, etc.
     'shared'         => [
-        '/home/jerico/rocketeertest/shared/wp-config.php',
-		'/home/jerico/rocketeertest/shared/.htaccess',
-		'/home/jerico/rocketeertest/shared/wp-content/uploads'
+      'wp-config.php',
+  		'.htaccess',
+  		'wp-content/uploads'
     ],
 
     // Execution
@@ -60,7 +60,7 @@ return [
 
         // The folders and files to set as web writable
         'files'    => [
-            '/home/jerico/rocketeertest/shared/',
+            '{path.public}',
         ],
 
         // Here you can configure what actions will be executed to set
