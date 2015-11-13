@@ -28,9 +28,9 @@ return [
 			sprintf('find . -type f -print0 | xargs -0 chmod 0644'),
             function($task){
                 $task->runForCurrentRelease('rsync -a wp-content/plugins/ /home/jerico/rocketeer/shared/wp-content/plugins/');
-                $task->runForCurrentRelease('rm -rf wp-content/plugins/'),
+                $task->runForCurrentRelease('rm -rf wp-content/plugins/');
                 $task->runForCurrentRelease('ln -s /home/jerico/rocketeertest/shared/wp-content/plugins ' . $task->releasesManager->getCurrentReleasePath()) . '/wp-content/uploads
-')
+');
             }
 		),
 		'cleanup' => array(),
