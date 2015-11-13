@@ -33,6 +33,7 @@ return [
       'wp-config.php',
   		'.htaccess',
   		'wp-content/uploads'
+        'wp-content/plugins'
     ],
 
     // Execution
