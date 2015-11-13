@@ -1,5 +1,5 @@
 <?php
-
+//this is just a comment to test if it will reflect on the shared folder
 require_once WPCF7_PLUGIN_DIR . '/includes/functions.php';
 require_once WPCF7_PLUGIN_DIR . '/includes/l10n.php';
 require_once WPCF7_PLUGIN_DIR . '/includes/formatting.php';
