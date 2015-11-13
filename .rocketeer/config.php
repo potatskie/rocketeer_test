@@ -39,9 +39,9 @@ return [
     'connections'      => [
         'production' => [
             'host'      => '',
-            'username'  => 'jerico',
+            'username'  => '',
             'password'  => '',
-            'key'       => 'password',
+            'key'       => '',
             'keyphrase' => '',
             'agent'     => '',
         ],
