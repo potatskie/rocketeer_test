@@ -1,0 +1,83 @@
+<<<<<<< HEAD
+20151111071727
+20151112065107
+$ git clone "https://github.com/potatskie/rocketeer_test.git" "/home/jerico/rocketeertest/releases/20151112065836" --branch="master" --depth="1"
+git clone "https://github.com/potatskie/rocketeer_test.git" "/home/jerico/rocketeertest/releases/20151112065836" --branch="master" --depth="1"
+Cloning into '/home/jerico/rocketeertest/releases/20151112065836'...
+$ cd /home/jerico/rocketeertest/releases/20151112065836
+$ git submodule update --init --recursive
+cd /home/jerico/rocketeertest/releases/20151112065836
+=======
+20151112065107
+20151112065836
+$ git clone "https://github.com/potatskie/rocketeer_test.git" "/home/jerico/rocketeertest/releases/20151112231010" --branch="master" --depth="1"
+git clone "https://github.com/potatskie/rocketeer_test.git" "/home/jerico/rocketeertest/releases/20151112231010" --branch="master" --depth="1"
+Cloning into '/home/jerico/rocketeertest/releases/20151112231010'...
+$ cd /home/jerico/rocketeertest/releases/20151112231010
+$ git submodule update --init --recursive
+cd /home/jerico/rocketeertest/releases/20151112231010
+>>>>>>> 1840f32f79397d640e56d1a8f8607aa6bba5b8ec
+git submodule update --init --recursive
+
+which: no bundle in (/home/jerico/perl5/bin:/usr/local/jdk/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/bin:/usr/X11R6/bin)
+which: no npm in (/home/jerico/perl5/bin:/usr/local/jdk/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/bin:/usr/X11R6/bin)
+which: no bower in (/home/jerico/perl5/bin:/usr/local/jdk/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/bin:/usr/X11R6/bin)
+<<<<<<< HEAD
+which: no bower in (/home/jerico/rocketeertest/releases/20151112065836/node_modules/.bin)
+$ cd /home/jerico/rocketeertest/releases/20151112065836
+$ chmod -R 755 /home/jerico/rocketeertest/releases/20151112065836/shared/
+$ chmod -R g+s /home/jerico/rocketeertest/releases/20151112065836/shared/
+$ chmod -R g+x /home/jerico/rocketeertest/releases/20151112065836/shared/
+$ chmod -R o+x /home/jerico/rocketeertest/releases/20151112065836/shared/
+$ chown -R jerico:jerico /home/jerico/rocketeertest/releases/20151112065836/shared/
+cd /home/jerico/rocketeertest/releases/20151112065836
+chmod -R 755 /home/jerico/rocketeertest/releases/20151112065836/shared/
+chmod -R g+s /home/jerico/rocketeertest/releases/20151112065836/shared/
+chmod -R g+x /home/jerico/rocketeertest/releases/20151112065836/shared/
+chmod -R o+x /home/jerico/rocketeertest/releases/20151112065836/shared/
+chown -R jerico:jerico /home/jerico/rocketeertest/releases/20151112065836/shared/
+chmod: cannot access `/home/jerico/rocketeertest/releases/20151112065836/shared/': No such file or directory
+$ rm -rf /home/jerico/rocketeertest/current
+rm -rf /home/jerico/rocketeertest/current
+
+$ ln -s /home/jerico/rocketeertest/releases/20151112065836 /home/jerico/rocketeertest/current
+ln -s /home/jerico/rocketeertest/releases/20151112065836 /home/jerico/rocketeertest/current
+
+$ cd /home/jerico/rocketeertest/releases/20151112065836
+$ find . -type f -print0 | xargs -0 chmod 0644
+cd /home/jerico/rocketeertest/releases/20151112065836
+find . -type f -print0 | xargs -0 chmod 0644
+
+$ rm -rf /home/jerico/rocketeertest/releases/20151111071727
+rm -rf /home/jerico/rocketeertest/releases/20151111071727
+=======
+which: no bower in (/home/jerico/rocketeertest/releases/20151112231010/node_modules/.bin)
+$ cd /home/jerico/rocketeertest/releases/20151112231010
+$ chmod -R 755 /home/jerico/rocketeertest/releases/20151112231010/
+$ chmod -R g+s /home/jerico/rocketeertest/releases/20151112231010/
+$ chmod -R g+x /home/jerico/rocketeertest/releases/20151112231010/
+$ chmod -R o+x /home/jerico/rocketeertest/releases/20151112231010/
+$ chown -R jerico:jerico /home/jerico/rocketeertest/releases/20151112231010/
+cd /home/jerico/rocketeertest/releases/20151112231010
+chmod -R 755 /home/jerico/rocketeertest/releases/20151112231010/
+chmod -R g+s /home/jerico/rocketeertest/releases/20151112231010/
+chmod -R g+x /home/jerico/rocketeertest/releases/20151112231010/
+chmod -R o+x /home/jerico/rocketeertest/releases/20151112231010/
+chown -R jerico:jerico /home/jerico/rocketeertest/releases/20151112231010/
+
+$ rm -rf /home/jerico/rocketeertest/current
+rm -rf /home/jerico/rocketeertest/current
+
+$ ln -s /home/jerico/rocketeertest/releases/20151112231010 /home/jerico/rocketeertest/current
+ln -s /home/jerico/rocketeertest/releases/20151112231010 /home/jerico/rocketeertest/current
+
+$ cd /home/jerico/rocketeertest/releases/20151112231010
+$ find . -type f -print0 | xargs -0 chmod 0644
+cd /home/jerico/rocketeertest/releases/20151112231010
+find . -type f -print0 | xargs -0 chmod 0644
+
+$ rm -rf /home/jerico/rocketeertest/releases/20151112065107
+rm -rf /home/jerico/rocketeertest/releases/20151112065107
+>>>>>>> 1840f32f79397d640e56d1a8f8607aa6bba5b8ec
+
+|=> Removing <info>1 release</info> from the server
